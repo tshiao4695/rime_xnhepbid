@@ -1,7 +1,7 @@
 # Rime dictionary
 # encoding: utf-8
 
-# 码表：[rime-chazi](https://github.com/kfcd/chaizi)
+# 码表：[chazi](https://github.com/kfcd/chaizi)
 # 添补：[henrysting](https://github.com/henrysting/chaizi/)
 # 注音、校对、添补：[Mirtle](https://github.com/mirtlecn)
 
@@ -22,7 +22,7 @@
 # '丨': [['shu4']],
 # '乁': [['na4']],
 # '㇏': [['na4']],
-# '㇇': [['zhe2']],
+# '⺄': [['yi3']], # 「乙」的变体
 # '𠃊': [['zhe2']],
 # '疋': [['ding4','pi3','shu1','ya2']],
 # '乚': [['gou1']],
@@ -31,6 +31,7 @@
 # '凵': [['kan3']],
 # '冖': [['mi4','bao3']],
 # '攵': [['wen2']],
+# '𠃌': [['zhe2','gou1']],
 # '夂': [['wen2']],
 # '冂': [['tong2','jiong1']],
 # '丶': [['dian3']],
@@ -38,13 +39,12 @@
 # '㇆': [['zhe2']],
 # '𡗗': [['chun1']],
 # '乀': [['na4']],
-# '𠂈': [['xiang']],
 # '𠃋': [['zhe2']],
-# '龴': [['yu3']],
+# '龴': [['yu3', 'si1']],
 # '㇉': [['zhe2']],
 # '⺆': [['ji3']],
 # '□': [['ge1']],
-# '': [['yi1']],
+# '': [['yi1']], # 「衣」去掉 亠 的下部，以及再去掉丿的变体（「展」的下部）
 # '卩': [['er3']],
 # '廴': [['jian4']],
 # '宀': [['bao3']],
@@ -68,7 +68,7 @@
 
 ---
 name: radical_pinyin
-version: "2024.01.11"
+version: "2024.01.12"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 1
@@ -76,6 +76,7 @@ max_phrase_length: 1
 
 〇	ling
 〇	zhe
+㐂	qi'qi'qi
 㐨	yu'yu
 㐩	jing'jing
 㐽	ren'feng
@@ -261,6 +262,7 @@ max_phrase_length: 1
 㼌	gua'gua
 㽏	qia'gan
 㽏	shui'he'gan
+㽓	sheng'sheng'sheng
 㽬	bi'bi
 㽬	bi'fu
 㽬	fu'bi
@@ -283,6 +285,7 @@ max_phrase_length: 1
 䃎	shi'da'duo
 䃎	shi'zha
 䅟	he'can
+䆐	qin'qin'qin
 䇱	zhu'guo'xi
 䇱	zhu'kou'xi
 䇱	zhu'wei'xi
@@ -315,6 +318,7 @@ max_phrase_length: 1
 䓨	cao'mi'fou
 䓫	cao'qi
 䓬	cao'zhuo
+䖃	ruo'ruo'ruo
 䖙	wo'si
 䖵	chong'chong
 䗖	chong'dai
@@ -322,6 +326,7 @@ max_phrase_length: 1
 䗛	chong'you'rou
 䗛	chong'you'yue
 䗪	guang'nian'huo'chong
+䗪	shu'chong
 䗴	chong'zhu'ting
 䘆	chong'xian
 䘆	tong'xian
@@ -353,6 +358,7 @@ max_phrase_length: 1
 䨇	zhi'zhi
 䨣	yu'ge
 䨩	yu'shen
+䨺	yun'yun'yun
 䪂	ge'ji
 䪭	yin'yin
 䫯	yi'xie
@@ -433,7 +439,11 @@ max_phrase_length: 1
 与	heng'zhe'yi
 与	yi'zhe'heng
 与	yi'zhe'yi
-丏	zhe'shu'gun
+丏	gai'shu
+丏	heng'zhe'shu'gou
+丏	heng'zhe'shu'zhe
+丏	yi'zhe'shu'gou
+丏	yi'zhe'shu'zhe
 丐	xia'bao
 丐	zheng'pie
 丑	zhe'heng'shu'heng
@@ -442,6 +452,7 @@ max_phrase_length: 1
 丑	zhe'yi'shu'yi
 丒	ren'heng
 丒	ren'yi
+专	er'shu'si
 专	er'shu'yu
 且	yue'heng
 且	yue'yi
@@ -491,11 +502,13 @@ max_phrase_length: 1
 並	ba'ya
 並	ba'yi'ye
 丧	tu'ba'yi
+丩	gou'shu
+丩	zhe'shu
 个	ren'shu
 丫	dian'dian'shu
 丬	bing'shu
 中	kou'shu
-丮	na'er'shu
+丮	yi'er'shu
 丯	shu'san
 丯	shu'shan
 丰	pie'er'shu
@@ -601,10 +614,18 @@ max_phrase_length: 1
 亀	gui'ri
 亀	gui'yue
 亁	shi'ri'gan'qi
+亂	zhao'si'jiong'mou'you'yi
+亂	zhao'si'jiong'si'you'yi
+亂	zhao'si'tong'mou'you'yi
+亂	zhao'si'tong'si'you'yi
 亂	zhao'yu'jiong'mou'you'yi
 亂	zhao'yu'jiong'si'you'yi
 亂	zhao'yu'tong'mou'you'yi
 亂	zhao'yu'tong'si'you'yi
+亂	zhua'si'jiong'mou'you'gou
+亂	zhua'si'jiong'si'you'gou
+亂	zhua'si'tong'mou'you'gou
+亂	zhua'si'tong'si'you'gou
 亂	zhua'yu'jiong'mou'you'gou
 亂	zhua'yu'jiong'si'you'gou
 亂	zhua'yu'tong'mou'you'gou
@@ -614,6 +635,7 @@ max_phrase_length: 1
 亄	yi'gou
 亄	yi'yi
 了	zhe'gou
+予	si'zhe'gou
 予	yu'zhe'gou
 争	dao'shan'gou
 争	dao'yu
@@ -630,6 +652,7 @@ max_phrase_length: 1
 亍	heng'ding
 亍	yi'ding
 于	er'gou
+亏	er'zhe
 亏	heng'kao
 亏	heng'qiao
 亏	heng'yu
@@ -764,6 +787,7 @@ max_phrase_length: 1
 仡	ren'qi
 仢	ren'shao
 代	ren'yi
+令	ren'dian'si
 令	ren'dian'yu
 令	ren'heng'er
 令	ren'yi'er
@@ -1518,9 +1542,8 @@ max_phrase_length: 1
 兀	yi'er
 允	mou'er
 允	si'er
-兂	chang'you'ji
-兂	fang'pie'gou'ji
-兂	kuang'pie'gou'ji
+兂	fang'pie'gou
+兂	kuang'pie'gou
 元	er'er
 兄	kou'er
 充	tou'yun
@@ -1608,7 +1631,7 @@ max_phrase_length: 1
 兹	ba'heng'yao'yao
 兹	ba'yi'yao'yao
 养	yang'jie
-养	yang'na'pie'shu
+养	yang'na'pie'shu'shu
 兼	ba'heng'shan'shu'shu'ba
 兼	ba'heng'yu'shu'shu'ba
 兼	ba'yi'shan'shu'shu'ba
@@ -2065,6 +2088,9 @@ max_phrase_length: 1
 劲	jing'li
 劳	cao'bao'li
 劳	cao'mi'li
+労	ba'bao'li
+労	dian'dian'pie'bao'li
+労	dian'dian'pie'mi'li
 労	xiao'bao'li
 労	xiao'mi'li
 劵	ba'fu'li
@@ -2116,6 +2142,8 @@ max_phrase_length: 1
 勝	rou'juan
 勝	yue'ba'fu'li
 勝	yue'juan
+勞	huo'huo'bao'li
+勞	huo'huo'mi'li
 勞	ying'li
 募	mo'li
 勠	liu'li
@@ -2279,7 +2307,7 @@ max_phrase_length: 1
 區	kuang'pin
 十	heng'shu
 十	yi'shu
-卂	na'shi
+卂	yi'shi
 千	pie'shi
 卄	heng'shu'shu
 卄	shi'shu
@@ -2292,6 +2320,7 @@ max_phrase_length: 1
 午	pie'gan
 卉	shi'gong
 卉	shi'nong
+卉	shi'shi'shi
 半	ba'heng'shi
 半	ba'yi'shi
 卋	shi'nian
@@ -2483,7 +2512,7 @@ max_phrase_length: 1
 厽	si'mou'si
 厽	si'si'mou
 厽	si'si'si
-厾	na'qu
+厾	yi'qu
 县	qie'mou
 县	qie'si
 叀	heng'you'mou
@@ -2820,6 +2849,7 @@ max_phrase_length: 1
 咽	kou'yin
 咾	kou'lao
 咿	kou'yi
+哀	tou'kou'yi
 哀	yi'kou
 品	kou'kou'kou
 哂	kou'xi
@@ -3679,6 +3709,9 @@ max_phrase_length: 1
 圄	guo'wu
 圄	kou'wu
 圄	wei'wu
+圅	si'guo'ba'gan
+圅	si'kou'ba'gan
+圅	si'wei'ba'gan
 圅	yu'guo'ba'gan
 圅	yu'kou'ba'gan
 圅	yu'wei'ba'gan
@@ -3859,6 +3892,7 @@ max_phrase_length: 1
 坍	tu'dan
 坎	tu'qian
 坏	tu'bu
+坐	cong'tu
 坐	ren'ren'tu
 坑	tu'kang
 坒	bi'tu
@@ -6083,14 +6117,9 @@ max_phrase_length: 1
 巾	tong'shu
 巿	heng'jin
 巿	yi'jin
-帀	heng'jin'fu
-帀	heng'jin'po
-帀	pie'jin
-帀	yi'jin'fu
-帀	yi'jin'po
-币	heng'jin
+帀	heng'jin
+帀	yi'jin
 币	pie'jin
-币	yi'jin
 市	tou'jin
 布	heng'pie'jin
 布	yi'pie'jin
@@ -6451,8 +6480,8 @@ max_phrase_length: 1
 弉	zhuang'nong
 弊	bi'gong
 弊	bi'nong
-弋	heng'na'dian
-弋	yi'na'dian
+弋	heng'gou'dian
+弋	yi'gou'dian
 弌	yi'heng
 弌	yi'yi
 弍	yi'er
@@ -7581,8 +7610,8 @@ max_phrase_length: 1
 戇	li'zao'pu'ye'xin
 戇	li'zao'wen'xie'xin
 戇	li'zao'wen'ye'xin
-戈	heng'na'pie'dian
-戈	yi'na'pie'dian
+戈	heng'gou'pie'dian
+戈	yi'gou'pie'dian
 戊	pie'ge
 戋	ge'heng
 戋	ge'yi
@@ -7971,8 +8000,10 @@ max_phrase_length: 1
 招	cai'zhao
 招	shou'zhao
 拜	shou'shou
-拝	cai'shou
-拝	shou'shou
+拝	cai'heng'feng
+拝	cai'yi'feng
+拝	shou'heng'feng
+拝	shou'yi'feng
 拞	cai'qiu
 拞	shou'qiu
 拟	cai'yi
@@ -10112,7 +10143,7 @@ max_phrase_length: 1
 曲	kou'nian
 曲	wei'nian
 曲	yue'shu'shu
-曳	yue'na'pie
+曳	yue'gou'pie
 更	heng'ri'ren
 更	heng'shen'ren
 更	heng'tian'ren
@@ -11670,8 +11701,10 @@ max_phrase_length: 1
 毊	qing'qiao
 毊	sheng'jiao
 毊	sheng'qiao
-毋	zhe'gun'heng'pie
-毋	zhe'gun'yi'pie
+毋	zhe'gou'heng'pie
+毋	zhe'gou'yi'pie
+毋	zhe'zhe'heng'pie
+毋	zhe'zhe'yi'pie
 毌	zhe'zhe'shi
 母	shu'heng'er'dian'dian'gou
 母	shu'yi'er'dian'dian'gou
@@ -13852,6 +13885,7 @@ max_phrase_length: 1
 犮	heng'pie'dian'you
 犮	yi'pie'dian'yi
 犮	yi'pie'dian'you
+犮	you'dian
 犯	quan'er
 犯	quan'jie
 犯	quan'xian
@@ -15005,6 +15039,7 @@ max_phrase_length: 1
 甪	dian'yong
 甫	heng'dian'yong
 甫	yi'dian'yong
+甬	si'yong
 甬	yu'yong
 甭	bu'yong
 甮	wu'yong
@@ -15175,6 +15210,10 @@ max_phrase_length: 1
 疐	shi'mi'tian'pi
 疐	shi'mi'tian'shu
 疐	shi'mi'tian'ya
+疑	bi'shi'si'ding
+疑	bi'shi'si'pi
+疑	bi'shi'si'shu
+疑	bi'shi'si'ya
 疑	bi'shi'yu'ding
 疑	bi'shi'yu'pi
 疑	bi'shi'yu'shu
@@ -19298,9 +19337,11 @@ max_phrase_length: 1
 耐	er'cun
 耑	shan'er
 耒	er'mu
+耒	feng'ba
 耒	heng'wei
 耒	mo'heng
 耒	mo'yi
+耒	san'xiao
 耒	yi'wei
 耓	lei'ding
 耔	lei'zi
@@ -21780,12 +21821,12 @@ max_phrase_length: 1
 虰	chong'ding
 虰	tong'ding
 虰	zhong'ding
-虱	na'heng'chong
-虱	na'heng'tong
-虱	na'heng'zhong
-虱	na'yi'chong
-虱	na'yi'tong
-虱	na'yi'zhong
+虱	yi'heng'chong
+虱	yi'heng'tong
+虱	yi'heng'zhong
+虱	yi'yi'chong
+虱	yi'yi'tong
+虱	yi'yi'zhong
 虳	chong'shao
 虳	tong'shao
 虳	zhong'shao
@@ -24221,6 +24262,14 @@ max_phrase_length: 1
 覵	jian'xian
 覵	xian'jian
 覵	xian'xian
+覶	zhao'si'jiong'mou'you'jian
+覶	zhao'si'jiong'mou'you'xian
+覶	zhao'si'jiong'si'you'jian
+覶	zhao'si'jiong'si'you'xian
+覶	zhao'si'tong'mou'you'jian
+覶	zhao'si'tong'mou'you'xian
+覶	zhao'si'tong'si'you'jian
+覶	zhao'si'tong'si'you'xian
 覶	zhao'yu'jiong'mou'you'jian
 覶	zhao'yu'jiong'mou'you'xian
 覶	zhao'yu'jiong'si'you'jian
@@ -24229,6 +24278,14 @@ max_phrase_length: 1
 覶	zhao'yu'tong'mou'you'xian
 覶	zhao'yu'tong'si'you'jian
 覶	zhao'yu'tong'si'you'xian
+覶	zhua'si'jiong'mou'you'jian
+覶	zhua'si'jiong'mou'you'xian
+覶	zhua'si'jiong'si'you'jian
+覶	zhua'si'jiong'si'you'xian
+覶	zhua'si'tong'mou'you'jian
+覶	zhua'si'tong'mou'you'xian
+覶	zhua'si'tong'si'you'jian
+覶	zhua'si'tong'si'you'xian
 覶	zhua'yu'jiong'mou'you'jian
 覶	zhua'yu'jiong'mou'you'xian
 覶	zhua'yu'jiong'si'you'jian
@@ -25262,6 +25319,7 @@ max_phrase_length: 1
 賖	bei'yu
 賗	bei'chuan
 賘	bei'guang'tu
+賘	bei'zhuang'dian
 賙	bei'zhou
 賚	lai'bei
 賛	fu'fu'bei
@@ -25455,7 +25513,7 @@ max_phrase_length: 1
 走	shi'pi
 走	shi'shu
 走	shi'ya
-赱	tu'ba'na
+赱	tu'ba'ren
 赲	zou'li
 赳	zou'jiu
 赴	zou'bo
@@ -26327,10 +26385,18 @@ max_phrase_length: 1
 辩	xin'yan'xin
 辫	xin'si'xin
 辬	xin'wen'xin
+辭	zhao'si'jiong'mou'you'xin
+辭	zhao'si'jiong'si'you'xin
+辭	zhao'si'tong'mou'you'xin
+辭	zhao'si'tong'si'you'xin
 辭	zhao'yu'jiong'mou'you'xin
 辭	zhao'yu'jiong'si'you'xin
 辭	zhao'yu'tong'mou'you'xin
 辭	zhao'yu'tong'si'you'xin
+辭	zhua'si'jiong'mou'you'xin
+辭	zhua'si'jiong'si'you'xin
+辭	zhua'si'tong'mou'you'xin
+辭	zhua'si'tong'si'you'xin
 辭	zhua'yu'jiong'mou'you'xin
 辭	zhua'yu'jiong'si'you'xin
 辭	zhua'yu'tong'mou'you'xin
@@ -30237,6 +30303,7 @@ max_phrase_length: 1
 飋	feng'se
 飌	guan'feng
 飌	huan'feng
+飍	feng'feng'feng
 风	ji'yi
 飏	feng'gong'pie'pie
 飐	feng'zhan
@@ -30254,6 +30321,7 @@ max_phrase_length: 1
 飚	feng'biao
 飛	fei'sheng'fei
 飜	fan'fei
+飝	fei'fei'fei
 飞	yi'ba
 食	ren'liang
 飠	ren'liang
@@ -33701,12 +33769,15 @@ max_phrase_length: 1
 鿕	yu'dan
 	kou'lai
 𠀘	wu'wu
+𠁭	ge'ge'ge
 𠁷	chuan'chuan
+𠁼	dian'dian'dian
 𠃄	pai'pai
 𠃏	gou'gou
 𠃐	yi'yi
 𠃙	jiu'jiu
 𠃧	fei'fei
+𠄕	le'le'le
 𠅤	tou'si
 𠅯	yi'yi
 𠆲	ren'guang
@@ -33716,6 +33787,7 @@ max_phrase_length: 1
 𠈙	ren'jian
 𠊟	ren'min
 𠋆	ren'qin
+𠌕	jie'jie'jie
 𠎳	yu'yu
 𠐇	lai'lai
 𠑐	cang'cang

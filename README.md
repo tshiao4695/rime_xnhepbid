@@ -64,11 +64,13 @@ schema:
 
 ## 码表
 
-原码表：[rime-chazi](https://github.com/kfcd/chaizi) with [henrysting](https://github.com/henrysting/chaizi/)
+码表：[chazi](https://github.com/kfcd/chaizi) 
+
+添补 [henrysting](https://github.com/henrysting/chaizi/)
 
 注音、校对、添补：[Mirtle](https://github.com/mirtlecn)
 
-采用 [CC BY 3.0 DEED](https://creativecommons.org/licenses/by/3.0/) 授权条款
+该码表采用 [CC BY 3.0 DEED](https://creativecommons.org/licenses/by/3.0/) 授权条款
 
 更改：
 
