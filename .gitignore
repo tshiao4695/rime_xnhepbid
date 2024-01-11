@@ -1,0 +1,6 @@
+.DS_Store
+build/*
+.vscode
+radical.txt
+res/*
+!res/*.png
