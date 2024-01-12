@@ -8,7 +8,7 @@ schema:
   author: Mirtle
   description: |
     用拼音按顺序拼出偏旁部件，以输入汉字。
-    码表：[rime-chazi](https://github.com/kfcd/chaizi)
+    码表：[chazi](https://github.com/kfcd/chaizi)
     添补：[henrysting](https://github.com//chaizi/)
     注音、校对、添补、方案：[Mirtle](https://github.com/mirtlecn)
     报错 <https://github.com/mirtlecn/rime_radical_pinyin>

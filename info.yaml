@@ -1,7 +1,7 @@
 # Rime dictionary
 # encoding: utf-8
 
-# 码表：[rime-chazi](https://github.com/kfcd/chaizi)
+# 码表：[chazi](https://github.com/kfcd/chaizi)
 # 添补：[henrysting](https://github.com/henrysting/chaizi/)
 # 注音、校对、添补：[Mirtle](https://github.com/mirtlecn)
 
@@ -22,7 +22,7 @@
 # '丨': [['shu4']],
 # '乁': [['na4']],
 # '㇏': [['na4']],
-# '㇇': [['zhe2']],
+# '⺄': [['yi3']], # 「乙」的变体
 # '𠃊': [['zhe2']],
 # '疋': [['ding4','pi3','shu1','ya2']],
 # '乚': [['gou1']],
@@ -31,6 +31,7 @@
 # '凵': [['kan3']],
 # '冖': [['mi4','bao3']],
 # '攵': [['wen2']],
+# '𠃌': [['zhe2','gou1']],
 # '夂': [['wen2']],
 # '冂': [['tong2','jiong1']],
 # '丶': [['dian3']],
@@ -38,13 +39,12 @@
 # '㇆': [['zhe2']],
 # '𡗗': [['chun1']],
 # '乀': [['na4']],
-# '𠂈': [['xiang']],
 # '𠃋': [['zhe2']],
-# '龴': [['yu3']],
+# '龴': [['yu3', 'si1']],
 # '㇉': [['zhe2']],
 # '⺆': [['ji3']],
 # '□': [['ge1']],
-# '': [['yi1']],
+# '': [['yi1']], # 「衣」去掉 亠 的下部，以及再去掉丿的变体（「展」的下部）
 # '卩': [['er3']],
 # '廴': [['jian4']],
 # '宀': [['bao3']],
