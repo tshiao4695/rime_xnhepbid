@@ -73,7 +73,7 @@
 
 ---
 name: radical_pinyin
-version: "2024.01.13"
+version: "2024.01.14"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 1
@@ -614,7 +614,9 @@ max_phrase_length: 1
 乸	ye'mu
 乹	shi'ri'shi'gou
 乾	shi'ri'shi'qi
+乿	zhao'mi'gou
 乿	zhao'mi'yi
+乿	zhao'si'gou
 乿	zhao'si'yi
 乿	zhua'mi'gou
 乿	zhua'si'gou
@@ -623,13 +625,21 @@ max_phrase_length: 1
 亀	gui'ri
 亀	gui'yue
 亁	shi'ri'gan'qi
+亂	zhao'si'jiong'mou'you'gou
 亂	zhao'si'jiong'mou'you'yi
+亂	zhao'si'jiong'si'you'gou
 亂	zhao'si'jiong'si'you'yi
+亂	zhao'si'tong'mou'you'gou
 亂	zhao'si'tong'mou'you'yi
+亂	zhao'si'tong'si'you'gou
 亂	zhao'si'tong'si'you'yi
+亂	zhao'yu'jiong'mou'you'gou
 亂	zhao'yu'jiong'mou'you'yi
+亂	zhao'yu'jiong'si'you'gou
 亂	zhao'yu'jiong'si'you'yi
+亂	zhao'yu'tong'mou'you'gou
 亂	zhao'yu'tong'mou'you'yi
+亂	zhao'yu'tong'si'you'gou
 亂	zhao'yu'tong'si'you'yi
 亂	zhua'si'jiong'mou'you'gou
 亂	zhua'si'jiong'si'you'gou
@@ -649,6 +659,7 @@ max_phrase_length: 1
 予	yu'zhe'gou
 争	dao'shan'gou
 争	dao'yu
+争	zhao'shan'gou'zheng
 争	zhua'shan'gou'zheng
 亊	heng'ba'gou'yu
 亊	yi'ba'gou'yu
@@ -1771,7 +1782,9 @@ max_phrase_length: 1
 冩	mi'xi
 冪	bao'mu
 冪	mi'mu
+冫	dian'heng
 冫	dian'pie
+冫	dian'yi
 冬	wen'bing
 冬	xi'bing
 冭	da'bing
@@ -2336,8 +2349,9 @@ max_phrase_length: 1
 卋	shi'nian
 卌	chuan'shu'heng
 卌	chuan'shu'yi
-卌	pie'shu'shu'shu'shu'heng
-卌	pie'shu'shu'shu'shu'yi
+卌	sa'shu
+卌	shu'shu'shu'shu'heng
+卌	shu'shu'shu'shu'yi
 卍	zhe'zhe
 华	hua'shi
 协	shi'ban
@@ -2377,6 +2391,7 @@ max_phrase_length: 1
 卡	shang'bo
 卡	shang'xia
 卢	bo'shi
+卣	bo'hui
 卣	bo'yin
 卤	bo'guo'yi
 卤	bo'kou'yi
@@ -2893,7 +2908,7 @@ max_phrase_length: 1
 哜	kou'qi
 哝	kou'nong
 哞	kou'mou
-哟	kou'yue'yo
+哟	kou'yue
 哠	kou'gao
 員	kou'bei
 哢	kou'nong
@@ -3157,7 +3172,8 @@ max_phrase_length: 1
 嗀	shi'mi'yi'kou'shu
 嗁	kou'si
 嗂	kou'you
-嗂	kou'yue'fou
+嗂	kou'zhao'fou
+嗂	kou'zhua'fou
 嗃	kou'gao
 嗄	kou'xia
 嗅	kou'chou
@@ -4102,6 +4118,8 @@ max_phrase_length: 1
 堀	tu'qu
 堁	tu'guo
 堂	shang'tu
+堂	xiao'bao'kou'tu
+堂	xiao'mi'kou'tu
 堃	fang'fang'tu
 堄	tu'er
 堄	tu'ni
@@ -6061,6 +6079,7 @@ max_phrase_length: 1
 巚	shan'xi
 巚	shan'xian
 巛	quan'quan'quan
+巛	zhe'zhe'zhe
 川	pie'shu'shu
 州	chuan'dian'dian'dian
 巟	wang'chuan
@@ -8619,6 +8638,7 @@ max_phrase_length: 1
 揸	shou'cha
 揹	cai'bei
 揹	shou'bei
+揺	cai'zhao'ji
 揺	cai'zhua'ji
 揺	shou'zhao'ji
 揺	shou'zhua'ji
@@ -8794,6 +8814,7 @@ max_phrase_length: 1
 摅	shou'lv
 摆	cai'ba
 摆	shou'ba
+摇	cai'zhao'fou
 摇	cai'zhua'fou
 摇	shou'zhao'fou
 摇	shou'zhua'fou
@@ -13748,6 +13769,7 @@ max_phrase_length: 1
 爲	zhao'zhe'zhe'zhe'huo'pie
 爲	zhua'zhe'zhe'zhe'huo'pie
 爴	guo'zhao
+爵	zhao'yu'zheng
 爵	zhao'yu'zheng'zheng
 爵	zhua'yu'zheng
 父	ba'yi
@@ -14683,6 +14705,7 @@ max_phrase_length: 1
 瑴	shi'mi'yi'wang'shu
 瑵	wang'zao
 瑵	yu'zao
+瑶	wang'zhao'fou
 瑶	wang'zhua'fou
 瑶	yu'zhao'fou
 瑷	wang'ai
@@ -27011,7 +27034,9 @@ max_phrase_length: 1
 遣	zou'chuo'zhong'yi'shi'zhe'heng
 遣	zou'chuo'zhong'yi'shi'zhe'yi
 遥	chuo'zhao'fou
+遥	zhi'zhao'fou
 遥	zhi'zhua'fou
+遥	zou'zhao'fou
 遥	zou'zhua'fou
 遦	chuo'guan
 遦	chuo'wan
@@ -29412,6 +29437,7 @@ max_phrase_length: 1
 隞	fu'ao
 隟	er'chao
 隟	fu'chao
+隠	er'zhao'shan'xin
 隠	er'zhua'shan'xin
 隠	fu'zhao'shan'xin
 隢	er'yao
@@ -29472,6 +29498,7 @@ max_phrase_length: 1
 隰	fu'ri'yao'yao'huo
 隰	fu'xian
 隱	er'yin
+隱	er'zhao'gong'shan'xin
 隱	er'zhua'gong'shan'xin
 隱	fu'yin
 隱	fu'zhao'gong'shan'xin
