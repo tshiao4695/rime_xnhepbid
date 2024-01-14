@@ -4,3 +4,4 @@ build/*
 radical.txt
 res/*
 !res/*.png
+__pycache__
