@@ -82,11 +82,10 @@ custom_dict = {
     '彐': [['shan1']],
     '刂': [['dao1']],
     '丬': [['jiang1','qiang2']],
-    '囗': [['kou3','wei2','guo2']],
+    '囗': [['kou3','wei2','guo2']], # 国，围等字的外框
     '辶': [['zou3','zhi1']],
     '彡': [['shan1','san1']],
     '𦣞': [['yi2']]
-    # '日': [['ri4','yue1']]
     }
 load_phrases_dict(custom_dict)
 
@@ -142,5 +141,9 @@ sorted_error_yaml = sorted(error_yaml_set)
 
 with open("build/error.yaml", "w", encoding='utf-8') as error_file_3:
     error_file_3.write("\n".join(sorted(error_yaml_set)))
+
+with open("build/dict.yaml","w",encoding='utf-8') as f:
+    f.write("\n".join(sorted_yaml) + '\n\n')
+
 with open("build/radical_pinyin.dict.yaml","w",encoding='utf-8') as f:
     f.write(extra_content + '\n\n'  + HEADER + "\n".join(sorted_yaml) + '\n\n')

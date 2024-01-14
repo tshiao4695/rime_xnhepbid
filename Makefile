@@ -10,5 +10,8 @@ schema:
 install:
 	pip install -r requirements.txt
 
-dict:
+dict: install
 	python build.py
+
+convert2fly: dict
+	python convert_dict.py build/dict.yaml build/radical_pinyin_flypy.dict.yaml tofly "'"

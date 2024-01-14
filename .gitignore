@@ -2,3 +2,5 @@
 build/*
 .vscode
 radical_pinyin.dict.yaml
+__pycache__
+error*
