@@ -4,7 +4,7 @@
 schema:
   schema_id: radical_pinyin
   name: "偏旁部件拆字"
-  version: "0.2"
+  version: "1.0"
   author: Mirtle
   description: |
     用拼音按顺序拼出偏旁部件，以输入汉字。

@@ -73,10 +73,8 @@
 
 ---
 name: radical_pinyin
-version: "2024.01.14"
+version: "2024.01.15"
 sort: by_weight
-use_preset_vocabulary: true
-max_phrase_length: 1
 ...
 
 〇	ling
@@ -1159,6 +1157,7 @@ max_phrase_length: 1
 倛	ren'qi
 倜	ren'zhou
 倝	shi'ri'shi'ren
+倝	shi'zao'ren
 倞	ren'jing
 借	ren'xi
 倠	ren'zhui
