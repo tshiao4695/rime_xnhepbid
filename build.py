@@ -8,8 +8,6 @@ HEADER = f'''---
 name: radical_pinyin
 version: "{datetime.now().strftime("%Y.%m.%d")}"
 sort: by_weight
-use_preset_vocabulary: true
-max_phrase_length: 1
 ...\n\n'''
 
 pattern = re.compile("^[a-z']+$")
@@ -38,6 +36,7 @@ custom_dict = {
     '丨': [['shu4']],
     '乁': [['na4']],
     '㇏': [['na4']],
+    '乂': [['yi4','cha1']],
     '⺄': [['yi3']], # 「乙」的变体
     '𠃊': [['zhe2']],
     '𠙽': [['kuai4']],
@@ -49,7 +48,8 @@ custom_dict = {
     '乚': [['gou1']],
     '亅': [['gou1']],
     '𠄌': [['gou1']],
-    '凵': [['kan3']],
+    '凵': [['kan3','xiong1']],
+    '糸': [['mi4','xi4','jin3']],
     '冖': [['mi4','bao3']],
     '攵': [['wen2']],
     '𠃌': [['zhe2','gou1']],
@@ -67,7 +67,7 @@ custom_dict = {
     '□': [['ge1']],
     '': [['yi1']], # 「衣」去掉 亠 的下部，以及再去掉丿的变体（「展」的下部）
     '卩': [['er3']],
-    '廴': [['jian4']],
+    '廴': [['jian4','zhi1']],
     '宀': [['bao3']],
     '龷': [['gong4']],
     '□': [['zhe2']],

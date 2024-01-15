@@ -21,8 +21,6 @@ def gen_dict(input_file_path, output_file_path=None, encoding_method='tofly', se
 name: {base_name}
 version: "{datetime.now().strftime("%Y.%m.%d")}"
 sort: by_weight
-use_preset_vocabulary: true
-max_phrase_length: 1
 ...\n\n'''
 
     with open(output_file_path, 'w', encoding='utf-8') as output_file:
