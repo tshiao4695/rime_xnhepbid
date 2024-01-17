@@ -76,7 +76,7 @@
 
 ---
 name: radical_pinyin
-version: "2024.01.15"
+version: "2024.01.16"
 sort: by_weight
 ...
 
@@ -895,6 +895,7 @@ sort: by_weight
 伣	ren'jian
 伤	ren'pie'heng'li
 伤	ren'pie'yi'li
+伥	ren'chang
 伥	ren'zhang
 伦	ren'lun
 伧	ren'cang
@@ -6303,6 +6304,7 @@ sort: by_weight
 帎	jin'yin
 帎	jin'you
 帏	jin'wei
+帐	jin'chang
 帐	jin'zhang
 帑	nu'jin
 帒	dai'jin
@@ -6688,6 +6690,7 @@ sort: by_weight
 弟	ba'di'pie
 弟	ba'diao'pie
 弟	ba'gong'shu'pie
+张	gong'chang
 张	gong'zhang
 弡	gong'ju
 弢	gong'cao'you
@@ -7138,6 +7141,7 @@ sort: by_weight
 怂	cong'xin
 怃	xin'wu
 怄	xin'qu
+怅	xin'chang
 怅	xin'zhang
 怆	xin'cang
 怇	xin'ju
@@ -10612,6 +10616,7 @@ sort: by_weight
 枣	ci'bing
 枥	mu'li
 枧	mu'jian
+枨	mu'chang
 枨	mu'zhang
 枪	mu'cang
 枫	mu'feng
@@ -20899,7 +20904,9 @@ sort: by_weight
 肾	shu'shu'you'yue
 肿	rou'zhong
 肿	yue'zhong
+胀	rou'chang
 胀	rou'zhang
+胀	yue'chang
 胀	yue'zhang
 胁	rou'ban
 胁	yue'ban
@@ -21935,6 +21942,7 @@ sort: by_weight
 苉	cao'pi
 苊	cao'e
 苋	cao'jian
+苌	cao'chang
 苌	cao'zhang
 苍	cao'cang
 苎	cao'bao'heng
@@ -26752,6 +26760,7 @@ sort: by_weight
 贤	shu'shu'you'bei
 败	bei'pu
 败	bei'wen
+账	bei'chang
 账	bei'zhang
 货	hua'bei
 质	chang'shi'bei
@@ -36294,6 +36303,7 @@ sort: by_weight
 𬪩	you'nong
 𬬩	jin'yi
 𬬭	jin'lun
+𬬮	jin'chang
 𬬮	jin'zhang
 𬬱	jin'jin
 𬬸	jin'shu
