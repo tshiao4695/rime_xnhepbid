@@ -76,7 +76,7 @@
 
 ---
 name: radical_pinyin
-version: "2024.01.16"
+version: "2024.01.19"
 sort: by_weight
 ...
 
@@ -1607,6 +1607,7 @@ sort: by_weight
 兒	jiu'er
 兓	ji'ji
 兔	dao'kou'shu'er'dian
+兔	mian'dian
 兕	ao'er
 兖	tou'dui
 兗	tou'dui
@@ -28157,9 +28158,9 @@ sort: by_weight
 逷	chuo'yi
 逷	zhi'yi
 逷	zou'yi
-逸	chuo'mian
-逸	zhi'mian
-逸	zou'mian
+逸	chuo'tu
+逸	zhi'tu
+逸	zou'tu
 逺	chuo'tu'zhe'yi
 逺	zhi'tu'zhe'yi
 逺	zou'tu'zhe'yi
