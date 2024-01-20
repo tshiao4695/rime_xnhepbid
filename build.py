@@ -92,6 +92,7 @@ load_phrases_dict(custom_dict)
 
 radical = []
 yaml = set()
+fuma = set()
 error_yaml_set = set()
 
 with open("radical.txt", 'r', encoding='utf-8' ) as f:
@@ -127,17 +128,22 @@ for line in radical:
         # pypinyin 获取拼音
         pinyin_list = pypinyin.pinyin(unit.split(), style=pypinyin.Style.NORMAL, heteronym=True)
         for pinyin in product(*pinyin_list):
+            pinyin2 = ''.join(filter(is_not_empty, pinyin))
             pinyin = "'".join(filter(is_not_empty, pinyin))
             if not pattern.match(pinyin): 
                 error_item = f"{char.strip()}\t{pinyin}"
                 error_yaml_set.add(error_item)
                 continue
             item = f"{char.strip()}\t{pinyin}"
+            fuma_item = f"{char.strip()}={pinyin2}"
             yaml.add(item)
+            fuma.add(fuma_item)
+
 with open("info.yaml", 'r', encoding='utf-8') as f:
     extra_content = f.read()
 
 sorted_yaml = sorted(yaml)
+sorted_fuma = sorted(fuma)
 sorted_error_yaml = sorted(error_yaml_set)
 
 with open("build/error.yaml", "w", encoding='utf-8') as error_file_3:
@@ -145,6 +151,9 @@ with open("build/error.yaml", "w", encoding='utf-8') as error_file_3:
 
 with open("build/dict.yaml","w",encoding='utf-8') as f:
     f.write("\n".join(sorted_yaml) + '\n\n')
+
+with open("build/radical_pinyin.txt", "w", encoding='utf-8') as f:
+    f.write("\n".join(sorted_fuma))
 
 with open("build/radical_pinyin.dict.yaml","w",encoding='utf-8') as f:
     f.write(extra_content + '\n\n'  + HEADER + "\n".join(sorted_yaml) + '\n\n')

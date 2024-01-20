@@ -16,7 +16,8 @@ def gen_dict(input_file_path, output_file_path=None, encoding_method='tofly', se
         output_file_path = f"{base_name}_gen{ext}"
 
     base_name = os.path.splitext(os.path.basename(output_file_path))[0].replace(".dict", "")
-
+    
+    fuma = set()
     HEADER = f'''---
 name: {base_name}
 version: "{datetime.now().strftime("%Y.%m.%d")}"
@@ -40,13 +41,20 @@ sort: by_weight
 
                         # 拼接转换后的内容
                         output_line = f"{chinese_char}\t{''.join(converted_codes)}\n"
-
+                        output_fuma = f"{chinese_char}={''.join(converted_codes)}"
                         # 写入到新文件
                         output_file.write(output_line)
+
+                        # 加入辅码
+                        fuma.add(output_fuma)
 
                     else:
                         # 将不符合条件的行输出到 error.txt 文件
                         error_file.write(line)
+
+    sorted_fuma = sorted(fuma)
+    with open("build/radical_pinyin_flypy.txt", "w", encoding='utf-8') as f:
+        f.write("\n".join(sorted_fuma))
 
     print(f"转换完成，结果保存在 {output_file_path}")
 

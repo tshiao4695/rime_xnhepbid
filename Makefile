@@ -1,5 +1,5 @@
 .PHONY: all
-all: clean schema install dict
+all: clean schema install dict convert2fly
 
 clean:
 	rm -f build/*
