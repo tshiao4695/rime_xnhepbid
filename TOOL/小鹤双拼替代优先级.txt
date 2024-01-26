@@ -1,0 +1,44 @@
+zh	v
+ch	i
+sh	u
+
+uang	l
+iang	l
+iong	s
+
+ing	k
+
+eng	g
+ang	h
+
+ong	s
+
+ian	m
+uan	r
+van	r
+uai	k
+iao	n
+
+iu	q
+
+ue	t
+ve	t
+un	y
+vn	y
+uo	o
+ie	p
+ua	x
+ia	x
+ui	v
+in	b
+
+ei	w
+ai	d
+en	f
+an	j
+ou	z
+ao	c
+
+
+
+
