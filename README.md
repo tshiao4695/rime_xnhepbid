@@ -1,3 +1,4 @@
+# 第一次更新内容
 【介紹】
 
 https://blog.csdn.net/m0_72077882/article/details/135653733?spm=1001.2014.3001.5502
@@ -23,7 +24,7 @@ https://blog.csdn.net/m0_72077882/article/details/135653733?spm=1001.2014.3001.5
 
 版本：202401261002
 
-更新内容：
+# 第二次更新内容：
 
 完成1 希腊字母大写 - 自定义短语 - 
 	添加了大写字母到schema中speller的alphabet和initials
