@@ -60,12 +60,12 @@ engine:
     - script_translator
     - script_translator@chaizi
     - script_translator@quanpin
-    #- table_translator@emojis
+    - table_translator@emojis # 添加注释后将会停用emoji
     - table_translator@soft_capslock
     - table_translator@dbpy_flypy_help
     - lua_translator@tex_translator
     - lua_translator@func_translator
-    #- table_translator@easy_en_simp ## 添加注释后：停用单词输入
+    - table_translator@easy_en_simp # 添加注释后：停用单词输入
   filters:
     - simplifier
     - uniquifier
