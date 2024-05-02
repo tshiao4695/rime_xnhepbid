@@ -23,3 +23,88 @@ https://blog.csdn.net/m0_72077882/article/details/135653733?spm=1001.2014.3001.5
 
 版本：202401261002
 
+更新内容：
+
+完成1 希腊字母大写 - 自定义短语 - 
+	添加了大写字母到schema中speller的alphabet和initials
+
+完成2 候选词优先级
+	要改词表
+
+完成3 常用汉语词汇/词库导入。添加了搜狗词库 -日常词库、学术词库-
+
+完成4 存档与更新说明
+
+完成5 许多莫名其妙的同音字需要删除
+例如：续约和需要竟然是同音
+办法：替换词库
+关于小狼毫基本现代汉语常用全拼词库应用于双拼模式下的办法
+
+背景原因：单字的小狼毫输入法简直是毫无人性。然而大多数的拼音输入是语句流。即使是高频词库导入，也解决不了这个问题。甚至还会南辕北辙。因此迫切需要一个汇编了日常语言高频使用的短语库。
+如果直接使用全拼词库放进小鹤拼拆，则会出现需要使用全拼的情况，使用双拼无法映射出语句，这是非常要命的。
+
+第一步、下载清华大学开源词库
+https://github.com/iDvel/rime-ice?tab=readme-ov-file
+这里直接用汇编好的版本。
+第二步、利用WPS表格将注释行全部删除。
+第三步、将词库复制回notepad++，使用全匹配模式先替换掉
+eng	eg
+ang	ah
+第四步、使用不完全匹配替换掉
+uang	l
+iang	l
+iong	s
+ing	k
+eng	g
+ang	h
+ong	s
+
+ian	m
+uan	r
+van	r
+uai	k
+iao	n
+
+iu	q
+ue	t
+ve	t
+un	y
+vn	y
+uo	o
+ie	p
+ua	x
+ia	x
+ui	v
+in	b
+ei	w
+ai	d
+en	f
+an	j
+ou	z
+ao	c
+
+zh	v
+ch	i
+sh	u
+第五步、使用完全匹配替换掉
+a	aa
+o	oo
+e	ee
+d	ai
+f	en
+j	an
+z	ou
+c	ao
+第六步、导入词库，完成。
+
+
+
+完成6 左右shift 字母上屏
+
+完成7 az 引导不带拼音的拆字输入
+
+完成8 使用TAB直接引导拆字码
+
+
+version: 2024.05.02
+
