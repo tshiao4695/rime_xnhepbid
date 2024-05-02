@@ -81,8 +81,6 @@ https://gitee.com/functoreality/rime-flypy-zrmfast
            
         步骤6、完成。
 
-![image-20240502202202880](D:\Personal\Downloads\.asserts\image-20240502202202880.png)
-
 用法：
 
 用户自定义短语：
